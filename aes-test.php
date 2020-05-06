@@ -2,7 +2,7 @@
 
 include 'aes.php';
 $inputText = "Manas Vivek";
-$inputKey = "7869880718";
+$inputKey = "123456789";
 $blockSize = 256;
 $aes = new AES($inputText, $inputKey, $blockSize);
 $enc = $aes->encrypt();
